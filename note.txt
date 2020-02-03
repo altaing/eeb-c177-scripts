@@ -1,0 +1,4 @@
+ExtractBodyM.sh works with files that use ";" as the delimiter. (such as our original Pacifici... file)
+ExtractBodyM2.sh works with files that use "," as the delimiter. (such as the two new files we downloaded to test our code)
+
+
