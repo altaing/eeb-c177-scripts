@@ -1,5 +1,6 @@
 #!/bin/bash
-tail -n +2 ~/Developer/repos/eeb-c177-homework/class-exercises/CSB/unix/data/Pacifici2013_data.csv | cut -d ";" -f 2-6 | tr -s ";" " " | sort -r -n -k 6
+inputdir=$1
+tail -n +2 $inputdir | cut -d ";" -f 2-6 | tr -s ";" " " | sort -r -n -k 6
 
 #starts_on_second_line "tail..."
 #file_we_wish_to_use "file location"
